@@ -1,0 +1,22 @@
+{
+  "name": "samu-learning-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies":{
+    "mocha": "^2.0.1",
+    "chai": "^1.10.0",
+    "grunt": "0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-mocha-cli": "^1.12.0",
+    "load-grunt-tasks": "^0.6.0"
+  },
+  "scripts": {
+    "test": "./node_modules/.bin/grunt mochacli"
+  },
+  "author": "",
+  "license": "ISC"
+}
