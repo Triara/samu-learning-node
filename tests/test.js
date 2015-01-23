@@ -1,7 +1,7 @@
 'use strict';
 
 const should = require('chai').should(),
-    machacker = require('./json-machacker.js');
+    machacker = require('./../json-machacker.js');
 
 describe('Join arrays', function(){
     it('join two single-item arrays', function(){
